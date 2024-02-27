@@ -23,3 +23,5 @@ export default {
         return axios.get(`${nasaEndpoint}planetary/apod`)
     },
 }
+
+// quite literally spent 3 hours wondering why api call was not working and http was undefined and turns  out react didnt like my env.file being called env.development.local
